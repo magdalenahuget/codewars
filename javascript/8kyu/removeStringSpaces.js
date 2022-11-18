@@ -1,3 +1,5 @@
+// Solution 1
+
 let text = '8 j 8 k  mBliB8g  ikmjB8B8  kjl  B 8j8mBlkiB8gimjB8B8jlB';
 
 function noSpace(x){
@@ -12,3 +14,11 @@ function noSpace(x){
   }
 
 noSpace(text);
+
+// Solution 2
+function noSpace(x){
+
+    return x.split(' ').join('');
+  }
+
+console.log(noSpace(text));
