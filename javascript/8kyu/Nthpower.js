@@ -1,7 +1,7 @@
 function index(array, n) {
     let result = 0;
     let npow = 0;
-      if (n <= array.length){
+      if (n < array.length){
           npow = Math.pow(array[n], n);
           result = npow;
         } else {
